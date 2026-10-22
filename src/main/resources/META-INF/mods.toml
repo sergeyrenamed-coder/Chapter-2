@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="cursedquest"
+version="${file.jarVersion}"
+displayName="Cursed Quest: Part II — The Noise Behind You"
+authors="RNMD"
+description='''The second chapter: twelve harder trials, multiplayer paranoia, original code-drawn horror overlays, fake system screens and unpredictable scare events.'''
+
+[[dependencies.cursedquest]]
+modId="forge"
+mandatory=true
+versionRange="[47.0.0,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cursedquest]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
